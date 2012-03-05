@@ -93,3 +93,8 @@ a.submit{
 }
 
 ul { list-style: none; }
+
+.archtable {
+    border:1px solid gray;
+    padding:4px;
+}

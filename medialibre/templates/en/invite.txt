@@ -1,0 +1,7 @@
+You have been invited to participate on "%(listname)s" mailing list, that's hosted on %(hostname)s, with your email address "%(email)s"
+
+If you want to accept the invitation just follow the link below:
+
+%(confirmurl)s
+
+If you don't want to accept the invitation just ignore this email

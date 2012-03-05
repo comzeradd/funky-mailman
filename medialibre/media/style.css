@@ -91,3 +91,5 @@ a.submit{
 	text-shadow:0 1px 1px #333;
 	text-transform:uppercase;
 }
+
+ul { list-style: none; }

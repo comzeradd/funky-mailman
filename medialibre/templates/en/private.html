@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" dir="ltr">
+<head>
+<title>medialibre.net: <MM-List-Name> Info Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,vietnamese,greek,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/icons/mm-icon.png" />
+<link rel="stylesheet" href="/media/style.css" media="screen" />
+</head>
+<body>
+
+<div class="header">
+    <MM-List-Name>: <MM-List-Description>
+</div>
+
+<div class="main">
+
+<FORM METHOD=POST ACTION="%(action)s">
+%(message)s
+  <TABLE WIDTH="100%%" BORDER="0" CELLSPACING="4" CELLPADDING="5">
+    <TR>
+      <TD COLSPAN="2" WIDTH="100%%" BGCOLOR="#99CCFF" ALIGN="CENTER">
+        <B><FONT COLOR="#000000" SIZE="+1">%(realname)s Private
+            Archives Authentication</FONT></B>
+      </TD>
+    </TR>
+    <tr>
+        <TD><div ALIGN="Right">Email address:</div></TD>
+        <TD><INPUT TYPE="text" NAME="username" SIZE="30"></TD>
+    </tr>
+    <tr>
+      <TD><div ALIGN="Right">Password:</div></TD>
+      <TD><INPUT TYPE="password" NAME="password" SIZE="30"></TD>
+    </tr>
+    <tr>
+      <td colspan=2 align="middle"><INPUT type="SUBMIT"
+                                          name="submit"
+                                          value="Let me in...">
+      </td>
+    </tr>
+  </TABLE>
+</FORM>
+</div>
+</body>
+</html>
